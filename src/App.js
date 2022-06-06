@@ -1,7 +1,7 @@
 import "./App.css";
 import Home from './pages/Home';
 import Login from './pages/Login';
-import Products from './components/Products/Products'
+
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
      
       <Home />
       <Login/>
-      <Products />
+      
       
     </div>
   );
