@@ -3,11 +3,14 @@ import { AuthContext } from "../context/AuthContext";
 
 const Login = () => {
   return (
-    <div>
-      <input data-cy="login-email" />
-      <input data-cy="login-password" />
-      <button data-cy="login-submit"></button>
+    <div >
+      <p>Login</p>
+      <input data-cy="login-email" placeholder="Enter email"/><br/>
+      <input data-cy="login-password" placeholder="Enter password" /> <br/>
+      <button data-cy="login-submit"  >Login</button>
+      
     </div>
+    
   );
 };
 

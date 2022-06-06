@@ -1,11 +1,17 @@
 import "./App.css";
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Products from './components/Products/Products'
+
 
 function App() {
   return (
     <div className="App">
-      {
-        // Code here
-      }
+     
+      <Home />
+      <Login/>
+      <Products />
+      
     </div>
   );
 }
